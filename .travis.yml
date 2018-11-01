@@ -1,5 +1,5 @@
 language: c
 script:
-  -gcc parser.c parser_modified.c
+  - gcc parser.c parser_modified.c
 after_success:
 - bash <(curl -s https://scripts.scantist.com/ci-travis.sh)
